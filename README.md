@@ -78,7 +78,7 @@ Follow the steps below to run the project on a local machine.
 
 1. Clone the GitHub repository:
    ```bash
-   git clone <repository-link>
+   git clone <https://github.com/gopal1937/AutoJudge>
    cd AutoJudge
 
 2. Install the required dependencies:
@@ -124,6 +124,7 @@ Demo Video Link:
 **Project Title:** AutoJudge – Predicting Programming Problem Difficulty  
 
 This project was developed as part of an academic assignment and demonstrates the use of machine learning techniques for text-based difficulty prediction of programming problems.
+
 
 
 
