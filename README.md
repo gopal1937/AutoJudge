@@ -17,6 +17,7 @@ AutoJudge/
 ├── requirements.txt # Python dependencies required to run the project locally
 ├── report.pdf # Detailed project report (4–8 pages) with analysis and results
 ├── Auto_judge.ipynb # Complete source code notebook
+├── auto_judge_evaluation.py # Complete source code for evaluation as .py file
 └── README.md # Project documentation and setup instructions
 
 ```
@@ -144,6 +145,7 @@ Demo Video Link:
 **Project Title:** AutoJudge – Predicting Programming Problem Difficulty  
 
 This project was developed as part of an academic assignment and demonstrates the use of machine learning techniques for text-based difficulty prediction of programming problems.
+
 
 
 
