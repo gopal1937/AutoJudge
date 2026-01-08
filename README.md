@@ -89,6 +89,11 @@ The web interface uses the saved Random Forest classification model and CatBoost
 
 ## Steps to Run the Project Locally
 
+### Note:
+This project has been tested with Python versions 3.9 to 3.11.  
+Using very new Python versions (e.g., 3.13 or above) on Windows may cause dependency build issues for some libraries such as CatBoost.
+
+
 Follow the steps below to run the project on a local machine.
 
 1. Clone the GitHub repository:
@@ -139,6 +144,7 @@ Demo Video Link:
 **Project Title:** AutoJudge – Predicting Programming Problem Difficulty  
 
 This project was developed as part of an academic assignment and demonstrates the use of machine learning techniques for text-based difficulty prediction of programming problems.
+
 
 
 
