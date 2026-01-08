@@ -8,8 +8,7 @@ The predictions are based on the problem description, input description, and out
 
 ## Project Structure
 
-'''
-
+```
 AutoJudge/
 ├── WebUI_code.py # Streamlit web application for difficulty prediction
 ├── rf_classifier.pkl # Trained Random Forest model for difficulty classification (Easy/Medium/Hard)
@@ -18,8 +17,7 @@ AutoJudge/
 ├── requirements.txt # Python dependencies required to run the project locally
 ├── report.pdf # Detailed project report (4–8 pages) with analysis and results
 └── README.md # Project documentation and setup instructions
-
-'''
+```
 
 ## Dataset Used
 
@@ -139,6 +137,7 @@ Demo Video Link:
 **Project Title:** AutoJudge – Predicting Programming Problem Difficulty  
 
 This project was developed as part of an academic assignment and demonstrates the use of machine learning techniques for text-based difficulty prediction of programming problems.
+
 
 
 
