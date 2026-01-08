@@ -6,6 +6,21 @@ AutoJudge is a machine learning–based system that predicts the difficulty of p
 
 The predictions are based on the problem description, input description, and output description provided by the user. The project includes a trained machine learning pipeline and a simple web interface for interactive predictions.
 
+## Project Structure
+
+'''
+
+AutoJudge/
+├── WebUI_code.py # Streamlit web application for difficulty prediction
+├── rf_classifier.pkl # Trained Random Forest model for difficulty classification (Easy/Medium/Hard)
+├── catboost_regressor.cbm # Trained CatBoost model for numerical difficulty score prediction
+├── tfidf_vectorizer.pkl # Saved TF-IDF vectorizer used for text feature extraction
+├── requirements.txt # Python dependencies required to run the project locally
+├── report.pdf # Detailed project report (4–8 pages) with analysis and results
+└── README.md # Project documentation and setup instructions
+
+'''
+
 ## Dataset Used
 
 The project uses a dataset of programming problems collected from online coding platforms. Each problem is already labeled with both a difficulty class and a numerical difficulty score, making it suitable for supervised learning.
@@ -124,6 +139,7 @@ Demo Video Link:
 **Project Title:** AutoJudge – Predicting Programming Problem Difficulty  
 
 This project was developed as part of an academic assignment and demonstrates the use of machine learning techniques for text-based difficulty prediction of programming problems.
+
 
 
 
